@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+certifi==2022.9.14
+=======
+certifi==2022.9.24
+>>>>>>> 1062f7d (Took two weeks to search, discover and figure multiple solutions for a good any relieable way, to push live data to a front end without having to refresh the browser. in the end I'm using Websockets, was pretty intense getting this to work.)
+charset-normalizer==2.1.1
+idna==3.4
+python-dotenv==0.21.0
+requests==2.28.1
+<<<<<<< HEAD
+urllib3==1.26.12
+=======
+SimpleWebSocketServer==0.1.1
+urllib3==1.26.12
+websocket-client==1.4.1
+websockets==10.3
+>>>>>>> 1062f7d (Took two weeks to search, discover and figure multiple solutions for a good any relieable way, to push live data to a front end without having to refresh the browser. in the end I'm using Websockets, was pretty intense getting this to work.)
