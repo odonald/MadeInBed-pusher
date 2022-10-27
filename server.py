@@ -23,5 +23,5 @@ class SimpleEcho(WebSocket):
     def handleClose(self):
         wss.remove(self)
 
-server = SimpleWebSocketServer('', 3000, SimpleEcho)
+server = SimpleWebSocketServer('localhost', 3000, SimpleEcho)
 server.serveforever()

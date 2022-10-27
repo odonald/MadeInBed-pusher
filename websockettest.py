@@ -47,7 +47,7 @@ def requestloop():
         finallist = str(len(list))
         time.sleep(5)
         async def hello():
-            async with websockets.connect("ws://localhost:3000") as ws:
+            async with websockets.connect("ws://0.0.0.0:3004") as ws:
                 await ws.send(finallist)
                 await ws.recv()
         #print(finallist)
