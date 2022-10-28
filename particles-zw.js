@@ -1,4 +1,4 @@
-let ws = new WebSocket("ws://0.0.0.0:3004");
+let ws = new WebSocket("ws://0.0.0.0:3000");
 let delayTimeElement = document.getElementById('numberonwebsite')
 let lastValue = null;
 let particlebirth = null;
